@@ -1,0 +1,87 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1f2933;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+/* Menu */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Conteúdo das seções */
+.content {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Títulos */
+h2 {
+    margin-bottom: 15px;
+    color: #1f2933;
+}
+
+h3 {
+    margin-top: 15px;
+}
+
+/* Listas */
+ul {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+article:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #1f2933;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+}
