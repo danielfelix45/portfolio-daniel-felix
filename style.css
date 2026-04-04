@@ -89,10 +89,36 @@ main {
 }
 
 /* Conteúdo das seções */
-.featured-project {
-    border: 2px solid #4f9cff;
-    padding: 20px;
-    border-radius: 12px;
+.hero-main {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #1f2933, #111827);
+    color: white;
+    text-align: center;
+}
+
+.hero-main h2 {
+    color: #ffffff;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+.hero-main p {
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.highlight {
+    color: #4f9cff;
 }
 
 .btn-cta {
@@ -117,6 +143,28 @@ main {
 /* Clique */
 .btn-cta:active {
     transform: scale(0.98);
+}
+
+.btn-secondary {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 12px 20px;
+    border: 1px solid #4f9cff;
+    color: #4f9cff;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-secondary:hover {
+    background: #4f9cff;
+    color: white;
+}
+
+.featured-project {
+    border: 2px solid #4f9cff;
+    padding: 20px;
+    border-radius: 12px;
 }
 
 .content {
