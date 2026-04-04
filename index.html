@@ -1,131 +1,255 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Daniel Félix</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio - Daniel Félix</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+  <header>
     <header>
-        <h1>Daniel Félix — Desenvolvedor em Formação</h1>
+      <div class="header-container">
+
+        <h1>Daniel Félix — Desenvolvedor Full Stack</h1>
+
+        <div class="social-links">
+          <a href="https://github.com/danielfelix45" target="_blank" rel="noopener noreferrer">
+            🐙 GitHub
+          </a>
+
+          <a href="https://www.linkedin.com/in/daniel-felix-developer/" target="_blank" rel="noopener noreferrer">
+            💼 LinkedIn
+          </a>
+        </div>
 
         <nav>
-            <a href="#sobre">Sobre</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#projetos">Projetos</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#projetos">Projetos</a>
         </nav>
+
+      </div>
     </header>
+  </header>
 
-    <main>
-        <section class="content" id="sobre">
-            <h2>Sobre mim</h2>
-            <p>
-                Olá! Meu nome é Daniel Félix. trabalho como mecânico industrial e sou estudante de tecnologia,
-                atualmente cursando Análise e Desenvolvimento de Sistemas.
+  <main>
+    
+    <section class="content" id="sobre">
+      <h2>Sobre mim</h2>
+      <p>
+        Olá! Meu nome é Daniel Félix. Trabalho como mecânico industrial e sou
+        estudante de tecnologia, atualmente cursando Análise e Desenvolvimento
+        de Sistemas. Desde 2021, venho estudando programação e desenvolvimento
+        de software, com foco na construção de uma base sólida em lógica de
+        programação, desenvolvimento web e tecnologias modernas. Tenho grande
+        interesse em tecnologia, resolução de problemas e aprendizado
+        contínuo. Atualmente, estou em transição de carreira para a área de
+        desenvolvimento, aprimorando minhas habilidades através de projetos
+        práticos e estudos constantes.
+      </p>
+    </section>
 
-                Desde 2021 venho estudando programação e desenvolvimento de software, buscando construir uma base sólida
-                em lógica de programação, desenvolvimento web e tecnologias modernas.
+    <section class="content" id="habilidades">
+      <h2>Minhas habilidades</h2>
 
-                Tenho grande interesse em tecnologia, resolução de problemas e aprendizado contínuo. Atualmente sigo
-                aprimorando minhas habilidades através de estudos, projetos práticos e cursos na área de desenvolvimento
-                de software.
-            </p>
-        </section>
+      <div class="skills-grid">
 
-        <section class="content" id="habilidades">
-            <h2>Minhas habilidades</h2>
+        <div class="skill-card">
+          <h3>Frontend</h3>
+          <p>HTML, CSS, JavaScript</p>
+        </div>
 
-            <h3>Habilidades Técnicas</h3>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Tailwind CSS</li>
-                <li>Noções de JavaScript</li>
-                <li>Lógica de Programação</li>
-                <li>SQL / Banco de Dados</li>
-                <li>Excel e Power BI (nível básico a intermediário)</li>
-                <li>Noções de .NET e APIs</li>
-                <li>SAP B1</li>
-                <li>Conhecimentos em tecnologia e sistemas</li>
-            </ul>
+        <div class="skill-card">
+          <h3>Backend</h3>
+          <p>Node.js, TypeScript, .NET</p>
+        </div>
 
-            <h3>Habilidades Pessoais</h3>
-            <ul>
-                <li>Facilidade de aprendizado</li>
-                <li>Disciplina e responsabilidade</li>
-                <li>Organização</li>
-                <li>Comunicação</li>
-                <li>Resolução de problemas com lógica</li>
-                <li>Adaptabilidade</li>
-            </ul>
-        </section>
+        <div class="skill-card">
+          <h3>Banco de dados</h3>
+          <p>MySQL, SQL</p>
+        </div>
 
-        <section class="content" id="projetos">
-            <h2>Projetos</h2>
+        <div class="skill-card">
+          <h3>Ferramentas</h3>
+          <p>Git, GitHub</p>
+        </div>
 
-            <article>
+      </div>
+    </section>
 
-                <h3>CRUD de Usuários com Node.js</h3>
+    <section class="content" id="projetos">
+      <h2>Projetos</h2>
 
-                <p>
-                    Aplicação CRUD desenvolvida com Node.js, Express e TypeScript, utilizando MySQL com Sequelize
-                    para persistência de dados e Pug como template engine para renderização das views.
-                </p>
+      <article class="featured-project">
 
-                <p><strong>Tecnologias:</strong> Node.js, Express, TypeScript, MySQL, Sequelize, Pug</p>
+        <h3>🚀 Study Tracker API (Projeto Principal)</h3>
 
-                <a href="LINK_DO_REPOSITORIO" target="_blank">Ver código</a>
+        <p>
+          API desenvolvida para gerenciamento de estudos, com controle de usuários,
+          matérias e sessões de estudo.
+        </p>
 
-            </article>
+        <p><strong>Tecnologias:</strong> Node.js, TypeScript, Express, MySQL</p>
 
-            <article>
-                <h3>Minimal API</h3>
-                <p>API desenvolvida em .NET utilizando Minimal API para criação de endpoints e manipulação de dados.</p>
-                <a href="https://github.com/danielfelix45/Minimal-API" target="_blank">Ver código</a>
-            </article>
+        <p><strong>Problema resolvido:</strong>
+          Criar uma solução para organizar e acompanhar a rotina de estudos de forma estruturada.
+        </p>
 
-            <article>
-                <h3>Sistema de Registro de Produtos</h3>
-                <p>Sistema web desenvolvido com ASP.NET MVC para cadastro e gerenciamento de produtos.</p>
-                <a href="https://github.com/danielfelix45/RegisterOfProductsSystem_ASPNETMVC" target="_blank">Ver
-                    código</a>
-            </article>
+        <p><strong>O que aprendi:</strong>
+          Desenvolvimento de APIs REST, organização de código em camadas, integração com banco de dados e boas práticas
+          de backend.
+        </p>
 
-            <article>
-                <h3>Expense Tracker React</h3>
-                <p>Aplicação React para controle de despesas pessoais.</p>
-                <a href="https://github.com/danielfelix45/expensetracker-react" target="_blank">Ver código</a>
-            </article>
+        <a href="https://github.com/danielfelix45/study-tracker-api" target="_blank" class="btn-cta">
+          Ver código
+        </a>
 
-            <article>
-                <h3>Amazon Clone</h3>
-                <p>Clone da interface da Amazon desenvolvido com HTML e Tailwind CSS.</p>
-                <a href="https://github.com/danielfelix45/Amazon_Clone_TailwindCss" target="_blank">Ver código</a>
-            </article>
+      </article>
 
-            <article>
-                <h3>Jogo da Velha</h3>
-                <p>
-                    Projeto desenvolvido com HTML, CSS e JavaScript que recria o clássico
-                    jogo da velha no navegador. A aplicação utiliza manipulação do DOM
-                    e lógica em JavaScript para controlar as jogadas.
-                </p>
+      <article>
+        <h3>CRUD de Usuários com Node.js</h3>
 
-                <a href="LINK_DO_REPOSITORIO" target="_blank">Ver projeto no GitHub</a>
-            </article>
+        <p>
+          Aplicação CRUD desenvolvida com Node.js, Express e TypeScript,
+          utilizando MySQL com Sequelize.
+        </p>
 
-        </section>
+        <p><strong>Tecnologias:</strong> Node.js, TypeScript, MySQL</p>
 
-    </main>
+        <p><strong>Problema resolvido:</strong> Criar um sistema completo de cadastro e gerenciamento de usuários.</p>
 
-    <footer>
-        <p>&copy; 2026 Daniel Félix. Todos os direitos reservados.</p>
-    </footer>
+        <p><strong>O que aprendi:</strong> Criação de APIs REST, integração com banco de dados e organização de código.
+        </p>
 
-    <script src="script.js"></script>
+        <a href="https://github.com/danielfelix45/crud-nodejs" target="_blank" rel="noopener noreferrer" class="btn">
+          Ver projeto no GitHub
+        </a>
+      </article>
+
+      <article>
+        <h3>Minimal API</h3>
+
+        <p>
+          API desenvolvida em .NET utilizando Minimal API para criação de
+          endpoints e manipulação de dados.
+        </p>
+
+        <p><strong>Tecnologias:</strong> ASP.NET Core, C#</p>
+
+        <p><strong>Problema resolvido:</strong>Este projeto apresenta o básico para criar uma API minimalista com
+          ASP.NET Core, demonstrando como configurar endpoints e lidar com requisições e respostas HTTP.</p>
+
+        <p><strong>O que aprendi:</strong>Configuração simples dos endpoints da API, roteamento básico para lidar com
+          diferentes requisições HTTP, lidar com pedidos recebidos e elaborar respostas apropriadas e introdução ao
+          middleware para processamento adicional.
+        </p>
+
+        <a href="https://github.com/danielfelix45/Minimal-API" target="_blank" rel="noopener noreferrer" class="btn">
+          Ver projeto no GitHub
+        </a>
+      </article>
+
+      <article>
+        <h3>Sistema de Registro de Produtos</h3>
+        <p>
+          Sistema web desenvolvido com ASP.NET MVC para cadastro e
+          gerenciamento de produtos.
+        </p>
+
+        <p><strong>Tecnologias:</strong> ASP.NET MVC, C#, Bootstrap, JQuery, SQL Server</p>
+
+        <p><strong>Problema resolvido:</strong>O foco desta atividade é praticar programação em C# para a Web, usando
+          ASP.Net MVC, além de praticar comandos Entity Framework Core via CRUD.</p>
+
+        <p><strong>O que aprendi:</strong> Desenvolvimento de aplicações web utilizando ASP.NET MVC, aplicando o padrão
+          Model-View-Controller para separação de responsabilidades, criação de controllers e views, implementação de
+          operações CRUD com banco de dados, além de boas práticas de organização e estruturação de projetos.</p>
+
+        <a href="https://github.com/danielfelix45/RegisterOfProductsSystem_ASPNETMVC" target="_blank"
+          rel="noopener noreferrer" class="btn">
+          Ver projeto no GitHub
+        </a>
+      </article>
+
+      <article>
+        <h3>Expense Tracker React</h3>
+
+        <p>Aplicação React para controle de despesas pessoais.</p>
+
+        <p><strong>Tecnologias:</strong> React, TypeScript, React Router DOM, Styled Components</p>
+
+        <p><strong>Problema resolvido:</strong>Este é um aplicativo simples de rastreamento de despesas desenvolvido com
+          React. Ele permite que os usuários registrem suas despesas, visualizem um resumo e mantenham o controle de
+          suas finanças pessoais.</p>
+
+        <p><strong>O que aprendi:</strong> Criação de aplicações front-end com React e TypeScript, componentização,
+          gerenciamento de estado, implementação de rotas com React Router DOM e utilização de Styled Components para
+          estilização dinâmica.</p>
+
+        <a href="https://github.com/danielfelix45/expensetracker-react" target="_blank" rel="noopener noreferrer"
+          class="btn">
+          Ver projeto no GitHub
+        </a>
+      </article>
+
+      <article>
+        <h3>Clone Website Presenta Sistemas</h3>
+        <p> Clone da interface do site da empresa Presenta Sistemas, desenvolvido com foco em reproduzir o layout,
+          estrutura visual e experiência do usuário da página original.</p>
+
+        <p><strong>Tecnologias:</strong> HTML, Tailwind CSS, JavaScript</p>
+
+        <p><strong>Problema resolvido:</strong> Recriar a interface do site da Presenta Sistemas, garantindo que o
+          layout, a estrutura visual e a experiência do usuário sejam semelhantes à página original.</p>
+
+        <p><strong>O que aprendi:</strong> Desenvolvimento de interfaces web utilizando HTML, Tailwind CSS e JavaScript,
+          com foco em replicar o design e a experiência do usuário de um site existente.</p>
+
+        <a href="https://github.com/danielfelix45/Amazon_Clone_TailwindCss" target="_blank" rel="noopener noreferrer"
+          class="btn">
+          Ver projeto no GitHub
+        </a>
+      </article>
+
+      <article>
+        <h3>Jogo da Velha</h3>
+        <p>
+          Projeto que recria o clássico jogo da velha no navegador.
+        </p>
+
+        <p><strong>Tecnologias:</strong> Html, CSS e JavaScript</p>
+
+        <p><strong>Problema resolvido:</strong> Criar um jogo da velha funcional com controle de jogadas, verificação de
+          vitória e empate.</p>
+
+        <p><strong>O que aprendi:</strong> Desenvolvimento de aplicações front-end com HTML, CSS e JavaScript,
+          manipulação do DOM, lógica de programação e implementação de funcionalidades interativas.</p>
+
+        <a href="https://github.com/danielfelix45/jogo-da-velha-javascript" target="_blank" rel="noopener noreferrer"
+          class="btn">
+          Ver projeto no GitHub
+        </a>
+      </article>
+    </section>
+
+    <section class="content">
+      <h2>Vamos conversar?</h2>
+      <p>Estou aberto a oportunidades na área de desenvolvimento.</p>
+
+      <a href="mailto:felixdaniel-developer@outlook.com" class="btn">
+        Entrar em contato
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Daniel Félix. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
