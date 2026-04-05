@@ -73,7 +73,6 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
     font-weight: bold;
     transition: color 0.3s ease;
 }
@@ -257,7 +256,7 @@ footer {
     .header-container {
     flex-direction: column;
     text-align: center;
-}
+    }
 
     .social-links {
         margin-top: 10px;
@@ -265,5 +264,18 @@ footer {
 
     nav {
         margin-top: 10px;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    header h1 {
+        font-size: 18px;
+    }
+
+    .social-links a {
+        display: inline-block;
+        margin: 5px;
     }
 }
