@@ -116,6 +116,23 @@ main {
     margin-top: 20px;
 }
 
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.about-image img {
+    width: 220px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.about-text {
+    flex: 1;
+}
+
 .highlight {
     color: #4f9cff;
 }
@@ -277,5 +294,14 @@ footer {
     .social-links a {
         display: inline-block;
         margin: 5px;
+    }
+
+    .about-container {
+    flex-direction: column;
+    text-align: center;
+}
+
+    .about-image img {
+        width: 180px;
     }
 }
