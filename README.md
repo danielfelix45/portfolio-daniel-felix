@@ -1,69 +1,79 @@
-# Portfólio Pessoal - Daniel Félix
+# 🌐 Portfólio Pessoal - Daniel Félix
 
-## Objetivo do projeto
+## 🚀 Sobre o projeto
 
-Este projeto consiste no desenvolvimento de uma página web de portfólio pessoal, criada com o objetivo de apresentar informações profissionais, habilidades técnicas e projetos desenvolvidos durante o processo de aprendizagem em programação.
+Este projeto é um site de portfólio pessoal desenvolvido para apresentar minhas habilidades técnicas, projetos e evolução na área de desenvolvimento de software.
 
-O site foi desenvolvido como parte do desafio da trilha de Desenvolvimento de Software do programa SCTEC. A proposta é demonstrar conhecimentos básicos de desenvolvimento web utilizando HTML, CSS e JavaScript, além de apresentar projetos práticos hospedados no GitHub.
-
-A página funciona como um cartão de apresentação profissional, permitindo que recrutadores, avaliadores e outros desenvolvedores conheçam melhor o perfil do desenvolvedor, suas competências técnicas e alguns exemplos de projetos desenvolvidos durante os estudos.
+A aplicação funciona como uma vitrine profissional, reunindo projetos práticos desenvolvidos com foco em backend, frontend e análise de dados, permitindo que recrutadores e desenvolvedores conheçam meu trabalho de forma clara e objetiva.
 
 ---
 
-## Tecnologias utilizadas
+## 🧠 Destaques
 
-As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
-
-- **HTML5** para a estrutura da página
-- **CSS3** para estilização e organização visual do layout
-- **JavaScript** para interatividade básica da página
-- **Git e GitHub** para versionamento de código e hospedagem dos projetos
-
-Essas tecnologias são amplamente utilizadas no desenvolvimento web e servem como base para a construção de aplicações modernas.
+- Apresentação profissional centralizada
+- Exibição de projetos com links para GitHub
+- Interface simples e objetiva
+- Foco em projetos com aplicação prática
 
 ---
 
-## Estrutura de arquivos
+## 🛠️ Tecnologias utilizadas
 
-O projeto possui uma estrutura simples de arquivos, organizada da seguinte forma:
+- HTML5
+- CSS3
+- JavaScript
+- Git e GitHub
 
+---
+
+## 📁 Estrutura do projeto
+
+```
 portfolio/
 │
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
+´´´
 
-**Descrição dos arquivos:**
-
-- **index.html** → arquivo principal que contém a estrutura da página.
-- **style.css** → arquivo responsável pela estilização visual do site.
-- **script.js** → arquivo que contém scripts JavaScript utilizados para pequenas interações na página.
-- **README.md** → documentação do projeto com explicação de seu funcionamento.
 
 ---
 
-## Como executar o projeto
+## ▶️ Como executar
 
-Para executar o projeto localmente, siga os passos abaixo:
+### 1. Clone o repositório:
 
-1. Faça o download ou clone o repositório do projeto.
-2. Extraia os arquivos caso estejam compactados.
-3. Abra a pasta do projeto.
-4. Clique duas vezes no arquivo **index.html** ou abra-o em qualquer navegador de internet.
-
-O site será carregado diretamente no navegador, exibindo as informações do portfólio.
+```bash
+git clone <url-do-repositorio>
+```
 
 ---
 
-## Melhorias futuras
+### 2. Acesse a pasta do projeto
 
-Algumas melhorias podem ser implementadas no futuro para tornar o projeto mais completo, como por exemplo:
+---
 
-- Adicionar novos projetos à seção de portfólio.
-- Implementar responsividade avançada para melhor adaptação em dispositivos móveis.
-- Incluir animações e efeitos visuais utilizando CSS ou JavaScript.
-- Integrar formulários de contato.
-- Conectar o portfólio com APIs ou projetos full stack.
+### 3. Abra o arquivo:
 
-Essas melhorias permitirão evoluir o projeto e torná-lo ainda mais completo do ponto de vista profissional.
+```
+index.html
+```
+
+---
+
+## 🎯 Objetivo
+
+Este projeto tem como objetivo consolidar conhecimentos em desenvolvimento web e servir como ponto central de apresentação dos meus projetos e evolução profissional.
+
+🚀 Evolução futura
+Melhorar responsividade
+Adicionar novos projetos relevantes
+Implementar melhorias visuais e UX
+Integrar com projetos full stack
+
+---
+
+## 👨‍💻 Autor
+
+Daniel Félix
