@@ -4,13 +4,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Portfólio de Daniel Félix, desenvolvedor em formação com projetos em Node.js, React e .NET.">
+
+  <meta
+    name="description"
+    content="Portfólio de Daniel Félix, desenvolvedor backend com projetos em Node.js, TypeScript, APIs REST e banco de dados."
+  />
+
   <title>Portfólio - Daniel Félix</title>
+
   <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
+
+  <!-- =========================
+       HEADER
+  ========================== -->
   <header>
     <div class="header-container">
 
@@ -18,226 +27,392 @@
       <span class="subtitle">Backend Developer</span>
 
       <div class="social-links">
-        <a href="https://github.com/danielfelix45" target="_blank" rel="noopener noreferrer">
+
+        <a
+          href="https://github.com/danielfelix45"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           🐙 GitHub
         </a>
 
-        <a href="https://www.linkedin.com/in/daniel-felix-developer/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.linkedin.com/in/daniel-antonio-felix/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           💼 LinkedIn
         </a>
+
       </div>
 
       <nav>
         <a href="#sobre">Sobre</a>
         <a href="#habilidades">Habilidades</a>
         <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
       </nav>
 
     </div>
   </header>
 
+
   <main>
+
+    <!-- =========================
+         HERO
+    ========================== -->
     <section class="hero-main">
 
       <div class="hero-text">
-        <h2>Desenvolvendo soluções backend com Node.js e TypeScript</h2>
+
+        <h2>
+          Desenvolvendo APIs e soluções backend com
+          Node.js e TypeScript
+        </h2>
 
         <p>
-          Autenticação JWT, banco de dados e regras de negócio aplicadas na prática.
+          Desenvolvimento de APIs REST, autenticação JWT,
+          banco de dados, regras de negócio e controle de acesso.
         </p>
 
-        <p><strong>Foco:</strong> Backend | APIs REST | .NET</p>
+        <p>
+          <strong>Foco:</strong>
+          Backend | APIs REST | Node.js | TypeScript
+        </p>
 
-        <h3>🚀 Projeto em destaque: Study Tracker API</h3>
+        <h3>🚀 Projeto em destaque: MedClinic API</h3>
 
         <p>
-          API para gerenciamento de estudos com autenticação JWT,
-          sessões de estudo e controle de progresso.
+          API REST para gerenciamento de uma clínica médica,
+          com autenticação JWT, controle de usuários e permissões,
+          além do gerenciamento de especialidades, médicos e pacientes.
         </p>
 
         <div class="hero-buttons">
-          <a href="https://github.com/danielfelix45/study-tracker-api" target="_blank" class="btn-cta"
-            rel="noopener noreferrer">
-            💻 Ver código
+
+          <!-- Inserir URL do repositório MedClinic -->
+          <a
+  href="https://github.com/danielfelix45/medclinic-api"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="btn-cta"
+>
+  Ver projeto no GitHub
+</a>
+
+          <a href="#projetos" class="btn-secondary">
+            📂 Ver projetos
           </a>
 
-          <a href="#projetos" class="btn-secondary" rel="noopener noreferrer">
-            📂 Ver outros projetos
-          </a>
         </div>
+
       </div>
 
     </section>
 
+
+    <!-- =========================
+         SOBRE MIM
+    ========================== -->
     <section class="content about" id="sobre">
+
       <div class="about-container">
 
         <div class="about-text">
+
           <h2>Sobre mim</h2>
+
           <p>
-            Sou desenvolvedor em formação com foco em backend, criando APIs com Node.js, TypeScript e MySQL.
-
-            Tenho experiência com autenticação JWT, validação de dados e construção de regras de negócio.
-
-            Também estou estudando .NET para ampliar minha atuação em desenvolvimento backend.
+            Sou desenvolvedor com foco em backend e estou concluindo
+            a graduação em Análise e Desenvolvimento de Sistemas.
           </p>
+
+          <p>
+            Tenho desenvolvido projetos utilizando Node.js,
+            TypeScript, Express, APIs REST e bancos de dados
+            relacionais, aplicando autenticação, autorização,
+            regras de negócio e organização de código em camadas.
+          </p>
+
+          <p>
+            Busco evoluir continuamente no desenvolvimento de
+            aplicações backend, construindo projetos práticos
+            e aprofundando meus conhecimentos em arquitetura,
+            banco de dados e desenvolvimento de APIs.
+          </p>
+
         </div>
 
         <div class="about-image">
-          <img src="./img/daniel-felix.png" alt="Foto de Daniel Félix">
+          <img
+            src="./img/daniel-felix.png"
+            alt="Foto de Daniel Félix"
+          />
         </div>
 
       </div>
+
     </section>
 
+
+    <!-- =========================
+         HABILIDADES
+    ========================== -->
     <section class="content" id="habilidades">
+
       <h2>Habilidades Técnicas</h2>
 
       <div class="skills-grid">
 
         <div class="skill-card">
-          <h3>Frontend</h3>
-          <p>HTML, CSS, JavaScript, React, Tailwind CSS</p>
-        </div>
-
-        <div class="skill-card">
           <h3>Backend</h3>
-          <p>Node.js, TypeScript, .NET</p>
+          <p>
+            Node.js, TypeScript, Express, APIs REST,
+            autenticação JWT
+          </p>
         </div>
 
         <div class="skill-card">
-          <h3>Banco de dados</h3>
-          <p>MySQL, SQL</p>
+          <h3>Banco de Dados</h3>
+          <p>
+            PostgreSQL, MySQL, SQL, TypeORM
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Frontend</h3>
+          <p>
+            HTML, CSS, JavaScript, React
+          </p>
         </div>
 
         <div class="skill-card">
           <h3>Ferramentas</h3>
-          <p>Git, GitHub</p>
+          <p>
+            Git, GitHub, Insomnia, VS Code
+          </p>
         </div>
 
       </div>
+
     </section>
 
+
+    <!-- =========================
+         PROJETOS
+    ========================== -->
     <section class="content" id="projetos">
+
       <h2>Projetos</h2>
 
+
+      <!-- 1 - MEDCLINIC -->
       <article class="featured-project">
 
-        <h3>🚀 Study Tracker API (Projeto Principal)</h3>
+        <h3>🚀 MedClinic API — Projeto Principal</h3>
 
         <p>
-          API desenvolvida para gerenciamento de estudos, com controle de usuários,
-          matérias e sessões de estudo.
+          API REST desenvolvida para gerenciamento de uma clínica
+          médica, permitindo administrar usuários, especialidades,
+          médicos e pacientes.
         </p>
-
-        <p><strong>Tecnologias:</strong> Node.js, TypeScript, Express, MySQL</p>
-
-        <p><strong>Problema resolvido:</strong>
-          Criar uma solução para organizar e acompanhar a rotina de estudos de forma estruturada.
-        </p>
-
-        <p><strong>O que aprendi:</strong>
-          Desenvolvimento de APIs REST, organização de código em camadas, integração com banco de dados e boas práticas
-          de backend.
-        </p>
-
-        <a href="https://github.com/danielfelix45/study-tracker-api" target="_blank" class="btn-cta">
-          Ver projeto no GitHub
-        </a>
-
-      </article>
-
-      <article>
-        <h3>📊 Dashboard Agro (Power BI)</h3>
 
         <p>
-          Dashboard interativo desenvolvido no Power BI para análise da produção e exportação de produtos agropecuários
-          no Brasil. A aplicação permite visualizar indicadores estratégicos, comparar desempenho entre regiões e
-          acompanhar a evolução dos dados ao longo do tempo, facilitando a tomada de decisão baseada em dados.
+          <strong>Tecnologias:</strong>
+          Node.js, TypeScript, Express, TypeORM,
+          PostgreSQL e JWT
         </p>
-
-        <p><strong>Tecnologias:</strong> Power Bi, SQL MySQL, DAX, Excel</p>
-
-        <p><strong>Problema resolvido:</strong>
-          Dados agropecuários geralmente estão dispersos e difíceis de interpretar. Este projeto resolve esse problema
-          ao consolidar e transformar esses dados em visualizações claras e interativas, permitindo uma análise rápida e
-          eficiente do desempenho por produto, região e período.
-        </p>
-
-        <p><strong>O que aprendi:</strong>
-          Desenvolvimento de dashboards interativos no Power BI, criação de medidas com DAX, modelagem de dados,
-          transformação de dados com SQL e aplicação de boas práticas de visualização e storytelling para análise
-          orientada à decisão.
-        </p>
-
-        <a href="https://github.com/danielfelix45/dashboard-agroanalise-powerbi/" target="_blank"
-          rel="noopener noreferrer" class="btn">
-          Ver projeto no GitHub
-        </a>
-      </article>
-
-      <article>
-        <h3>Sistema de Gestão de Produtos (ASP.NET MVC)</h3>
 
         <p>
-          Aplicação CRUD desenvolvida com Node.js, Express e TypeScript,
-          utilizando MySQL com Sequelize.
+          <strong>Principais funcionalidades:</strong>
+          autenticação JWT, controle de acesso baseado em funções
+          (RBAC), CRUD de especialidades, médicos e pacientes,
+          validação de dados e tratamento centralizado de erros.
         </p>
 
-        <p><strong>Tecnologias:</strong> ASP.NET MVC, C#, Entity Framework, SQL Server, Bootstrap</p>
-
-        <p><strong>Problema resolvido:</strong> Desenvolver uma aplicação web para cadastro e gerenciamento de produtos,
-          permitindo operações de criação, edição, listagem e exclusão de forma estruturada.</p>
-
-        <p><strong>O que aprendi:</strong> Sistema web para gestão de produtos com operações CRUD, desenvolvido em ASP.NET MVC.
-
-          Tecnologias: ASP.NET MVC, C#, Entity Framework, SQL Server
-
-          Aprendizados: padrão MVC, integração com banco de dados e organização de código em aplicações web.
+        <p>
+          <strong>O que aprendi:</strong>
+          estruturação de uma API REST em camadas,
+          autenticação e autorização, relacionamento entre entidades,
+          migrations, regras de negócio e organização de um projeto
+          backend mais completo.
         </p>
 
-        <a href="https://github.com/danielfelix45/RegisterOfProductsSystem_ASPNETMVC" target="_blank" rel="noopener noreferrer" class="btn">
+        <!-- Inserir URL do repositório MedClinic -->
+        <a
+          href="https://github.com/danielfelix45/medclinic-api"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-cta"
+        >
           Ver projeto no GitHub
         </a>
+
       </article>
 
+
+      <!-- 2 - STUDY TRACKER -->
       <article>
-        <h3>Expense Tracker React</h3>
 
-        <p>Aplicação React para controle de despesas pessoais.</p>
+        <h3>📚 Study Tracker API</h3>
 
-        <p><strong>Tecnologias:</strong> React, TypeScript, React Router DOM, Styled Components</p>
+        <p>
+          API desenvolvida para gerenciamento de estudos,
+          permitindo organizar usuários, matérias e sessões
+          de estudo.
+        </p>
 
-        <p><strong>Problema resolvido:</strong> Este é um aplicativo simples de rastreamento de despesas desenvolvido
-          com
-          React. Ele permite que os usuários registrem suas despesas, visualizem um resumo e mantenham o controle de
-          suas finanças pessoais.</p>
+        <p>
+          <strong>Tecnologias:</strong>
+          Node.js, TypeScript, Express e MySQL
+        </p>
 
-        <p><strong>O que aprendi:</strong> Criação de aplicações front-end com React e TypeScript, componentização,
-          gerenciamento de estado, implementação de rotas com React Router DOM e utilização de Styled Components para
-          estilização dinâmica.</p>
+        <p>
+          <strong>Problema resolvido:</strong>
+          criar uma solução para organizar e acompanhar
+          a rotina de estudos de forma estruturada.
+        </p>
 
-        <a href="https://github.com/danielfelix45/expensetracker-react" target="_blank" rel="noopener noreferrer"
-          class="btn">
+        <p>
+          <strong>O que aprendi:</strong>
+          desenvolvimento de APIs REST, autenticação,
+          organização do código em camadas,
+          integração com banco de dados e implementação
+          de regras de negócio.
+        </p>
+
+        <a
+          href="https://github.com/danielfelix45/study-tracker-api"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn"
+        >
           Ver projeto no GitHub
         </a>
+
       </article>
 
-    <section class="content">
+
+      <!-- 3 - BOOKSTORE -->
+      <article>
+
+        <h3>📖 BookStore Manager CLI</h3>
+
+        <p>
+          Aplicação executada via terminal para gerenciamento
+          de uma livraria, desenvolvida com foco em lógica
+          de programação e organização do código.
+        </p>
+
+        <p>
+          <strong>Principais funcionalidades:</strong>
+          cadastro, consulta, atualização e gerenciamento
+          de informações de livros através de uma interface
+          de linha de comando.
+        </p>
+
+        <p>
+          <strong>O que aprendi:</strong>
+          aplicação prática de lógica de programação,
+          estruturas de dados, funções, organização
+          de responsabilidades e construção de aplicações CLI.
+        </p>
+
+        <!-- Inserir URL correta do BookStore -->
+        <a
+  href="https://github.com/danielfelix45/bookstore-manager-cli"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="btn"
+>
+  Ver projeto no GitHub
+</a>
+      </article>
+
+
+      <!-- 4 - DASHBOARD AGRO -->
+      <article>
+
+        <h3>📊 Dashboard Agro — Power BI</h3>
+
+        <p>
+          Dashboard interativo desenvolvido para análise
+          de dados da produção e exportação de produtos
+          agropecuários no Brasil.
+        </p>
+
+        <p>
+          <strong>Tecnologias:</strong>
+          Power BI, SQL, MySQL, DAX e Excel
+        </p>
+
+        <p>
+          <strong>Problema resolvido:</strong>
+          transformar dados agropecuários em indicadores
+          e visualizações que facilitem a análise por
+          produto, região e período.
+        </p>
+
+        <p>
+          <strong>O que aprendi:</strong>
+          modelagem e transformação de dados,
+          criação de medidas com DAX,
+          desenvolvimento de dashboards interativos
+          e visualização de dados orientada à tomada de decisão.
+        </p>
+
+        <a
+          href="https://github.com/danielfelix45/dashboard-agroanalise-powerbi/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn"
+        >
+          Ver projeto no GitHub
+        </a>
+
+      </article>
+
+    </section>
+
+
+    <!-- =========================
+         CONTATO
+    ========================== -->
+    <section class="content" id="contato">
+
       <h2>Vamos conversar?</h2>
-      <p><strong>Aberto a oportunidades como desenvolvedor backend júnior.</strong></p>
 
-      <a href="mailto:felixdaniel-developer@outlook.com" class="btn-cta">
+      <p>
+        <strong>
+          Aberto a oportunidades como desenvolvedor backend júnior.
+        </strong>
+      </p>
+
+      <a
+        href="mailto:felixdaniel-developer@outlook.com"
+        class="btn-cta"
+      >
         Entrar em contato
       </a>
+
     </section>
+
   </main>
 
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
   <footer>
-    <p>&copy; 2026 Daniel Félix. Todos os direitos reservados.</p>
+    <p>
+      &copy; 2026 Daniel Félix. Todos os direitos reservados.
+    </p>
   </footer>
 
+
   <script src="./js/script.js"></script>
+
 </body>
 
 </html>

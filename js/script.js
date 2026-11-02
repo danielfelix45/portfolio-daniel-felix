@@ -1,12 +1,32 @@
-// mensagem inicial
-console.log("Portfólio carregado com sucesso!");
+document.addEventListener("DOMContentLoaded", () => {
+  const sections = document.querySelectorAll("section[id]");
+  const navLinks = document.querySelectorAll("nav a[href^='#']");
 
-// selecionar todos os links do menu
-const linksMenu = document.querySelectorAll("nav a");
+  function updateActiveLink() {
+    let currentSection = "";
 
-// adicionar evento de clique
-linksMenu.forEach(link => {
-    link.addEventListener("click", () => {
-        console.log("Navegando para:", link.textContent);
+    sections.forEach((section) => {
+      const sectionTop = section.offsetTop - 150;
+      const sectionHeight = section.offsetHeight;
+
+      if (
+        window.scrollY >= sectionTop &&
+        window.scrollY < sectionTop + sectionHeight
+      ) {
+        currentSection = section.getAttribute("id");
+      }
     });
+
+    navLinks.forEach((link) => {
+      link.classList.remove("active");
+
+      if (link.getAttribute("href") === `#${currentSection}`) {
+        link.classList.add("active");
+      }
+    });
+  }
+
+  window.addEventListener("scroll", updateActiveLink);
+
+  updateActiveLink();
 });

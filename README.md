@@ -1,79 +1,56 @@
-# 🌐 Portfólio Pessoal - Daniel Félix
+# Portfólio — Daniel Félix
 
-## 🚀 Sobre o projeto
+Portfólio pessoal desenvolvido para apresentar meus principais projetos e habilidades na área de desenvolvimento de software, com foco em **Backend, APIs REST, Node.js e TypeScript**.
 
-Este projeto é um site de portfólio pessoal desenvolvido para apresentar minhas habilidades técnicas, projetos e evolução na área de desenvolvimento de software.
+## 🚀 Projetos em destaque
 
-A aplicação funciona como uma vitrine profissional, reunindo projetos práticos desenvolvidos com foco em backend, frontend e análise de dados, permitindo que recrutadores e desenvolvedores conheçam meu trabalho de forma clara e objetiva.
+### MedClinic API
 
----
+API REST para gerenciamento de uma clínica médica, com autenticação JWT, controle de acesso por funções (RBAC) e gerenciamento de especialidades, médicos e pacientes.
 
-## 🧠 Destaques
+**Tecnologias:** Node.js, TypeScript, Express, TypeORM, PostgreSQL e JWT.
 
-- Apresentação profissional centralizada
-- Exibição de projetos com links para GitHub
-- Interface simples e objetiva
-- Foco em projetos com aplicação prática
+[Ver repositório](https://github.com/danielfelix45/medclinic-api)
 
----
+### Study Tracker API
 
-## 🛠️ Tecnologias utilizadas
+API para gerenciamento e acompanhamento de estudos, desenvolvida com foco em organização backend, regras de negócio e integração com banco de dados.
 
-- HTML5
-- CSS3
-- JavaScript
-- Git e GitHub
+[Ver repositório](https://github.com/danielfelix45/study-tracker-api)
 
----
+### BookStore Manager CLI
 
-## 📁 Estrutura do projeto
+Aplicação de linha de comando para gerenciamento de uma livraria, desenvolvida com foco em lógica de programação, estruturas de dados e organização de código.
 
-```
-portfolio/
-│
+[Ver repositório](https://github.com/danielfelix45/bookstore-manager-cli)
+
+### Dashboard Agro
+
+Dashboard desenvolvido para análise de dados da produção e exportação de produtos agropecuários no Brasil.
+
+**Tecnologias:** Power BI, SQL, MySQL, DAX e Excel.
+
+[Ver repositório](https://github.com/danielfelix45/dashboard-agroanalise-powerbi)
+
+## 🛠️ Estrutura
+
+```text
+.
 ├── index.html
-├── style.css
-├── script.js
-└── README.md
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+└── img/
+    └── daniel-felix.png
 ```
 
+## 💻 Tecnologias do portfólio
 
----
+HTML5 • CSS3 • JavaScript • Design responsivo
 
-## ▶️ Como executar
+## 👤 Autor
 
-### 1. Clone o repositório:
+**Daniel Félix**
 
-```bash
-git clone <url-do-repositorio>
-```
-
----
-
-### 2. Acesse a pasta do projeto
-
----
-
-### 3. Abra o arquivo:
-
-```
-index.html
-```
-
----
-
-## 🎯 Objetivo
-
-Este projeto tem como objetivo consolidar conhecimentos em desenvolvimento web e servir como ponto central de apresentação dos meus projetos e evolução profissional.
-
-🚀 Evolução futura
-Melhorar responsividade
-Adicionar novos projetos relevantes
-Implementar melhorias visuais e UX
-Integrar com projetos full stack
-
----
-
-## 👨‍💻 Autor
-
-Daniel Félix
+[GitHub](https://github.com/danielfelix45) • [LinkedIn](https://www.linkedin.com/in/daniel-antonio-felix/)
